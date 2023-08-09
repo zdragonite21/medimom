@@ -1,0 +1,31 @@
+function AppScreen() {
+  return (
+    <div className="w-screen h-screen bg-blue-400">
+      <div className="mx-auto bg-blue-600 max-w-screen-sm h-screen p-2">
+        <header className="text-center text-blue-200 font-bold text-5xl m-4">
+          MEDIMOM
+        </header>
+        <MedicationCard
+          med="Dexamethesone"
+          type="steriod"
+          description="for numbness"
+          time="9:00AM"
+        />
+        <MedicationCard
+          med="Dexamethesone"
+          type="steriod"
+          description="for numbness"
+          time="9:00AM"
+        />
+        <MedicationCard
+          med="Dexamethesone"
+          type="steriod"
+          description="for numbness"
+          time="9:00AM"
+        />
+      </div>
+    </div>
+  );
+}
+
+export default AppScreen;
